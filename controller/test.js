@@ -89,6 +89,6 @@ const scrapeProducts = async () => {
   await browser.close();
 }
 
-scrapeProducts();
+// scrapeProducts();
 
 

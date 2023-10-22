@@ -1,11 +1,11 @@
 const express = require('express');
-const cors = require('cors');
-const app = express();
+var cors = require('cors');
+var app = express();
 
-app.use(cors);
+app.use(cors());
 
 require('./routes')(app);
 
-app.listen(1000, (error) =>{
-    console.log("Text is running");
+app.listen(4000, (error) =>{
+    console.log("Text is running at 4000");
 })
